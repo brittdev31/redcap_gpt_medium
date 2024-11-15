@@ -98,3 +98,44 @@ updated_output_path = "/mnt/data/PHQ9_REDCap_DataDictionary_Updated.csv"
 phq9_df.to_csv(updated_output_path, index=False)
 
 updated_output_path
+
+import pandas as pd
+
+# Recreate the previously updated PHQ-9 DataFrame
+updated_output_path = "/mnt/data/PHQ9_REDCap_DataDictionary_Updated.csv"
+phq9_df = pd.read_csv(updated_output_path)
+
+# Create the 'record_number' variable as the first entry
+record_number_field = {
+    "Variable / Field Name": ["record_number"],
+    "Form Name": ["phq9"],
+    "Section Header": [None],
+    "Field Type": ["text"],
+    "Field Label": ["Record Number"],
+    "Choices, Calculations, OR Slider Labels": [None],
+    "Field Note": [None],
+    "Text Validation Type OR Show Slider Number": [None],
+    "Text Validation Min": [None],
+    "Text Validation Max": [None],
+    "Identifier?": ["y"],  # Marking as identifier
+    "Branching Logic (Show field only if...)": [None],
+    "Required Field?": ["y"],
+    "Custom Alignment": [None],
+    "Question Number (surveys only)": [None],
+    "Matrix Group Name": [None],
+    "Matrix Ranking?": [None],
+    "Field Annotation": [None]
+}
+
+# Convert to DataFrame
+record_number_df = pd.DataFrame(record_number_field)
+
+# Prepend 'record_number' to the PHQ-9 DataFrame
+phq9_df = pd.concat([record_number_df, phq9_df], ignore_index=True)
+
+# Save the final updated DataFrame to a new CSV
+final_output_path = "/mnt/data/PHQ9_REDCap_DataDictionary_Final.csv"
+phq9_df.to_csv(final_output_path, index=False)
+
+final_output_path
+
