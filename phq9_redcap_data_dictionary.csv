@@ -1,0 +1,11 @@
+Variable / Field Name,Form Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Required Field?
+phq9_q1,phq9,"Over the last 2 weeks, how often have you been bothered by any of the following problems?",radio,Little interest or pleasure in doing things,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",y
+phq9_q2,phq9,,radio,"Feeling down, depressed, or hopeless","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",y
+phq9_q3,phq9,,radio,"Trouble falling or staying asleep, or sleeping too much","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",y
+phq9_q4,phq9,,radio,Feeling tired or having little energy,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",y
+phq9_q5,phq9,,radio,Poor appetite or overeating,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",y
+phq9_q6,phq9,,radio,Feeling bad about yourself — or that you are a failure or have let yourself or your family down,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",y
+phq9_q7,phq9,,radio,"Trouble concentrating on things, such as reading the newspaper or watching television","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",y
+phq9_q8,phq9,,radio,Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",y
+phq9_q9,phq9,,radio,Thoughts that you would be better off dead or of hurting yourself in some way,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",y
+phq9_difficulty,phq9,"If you checked off any problems, how difficult have these problems made it for you?",radio,"How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?","0, Not difficult at all | 1, Somewhat difficult | 2, Very difficult | 3, Extremely difficult",y
