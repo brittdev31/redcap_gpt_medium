@@ -1,2 +1,2 @@
 # redcap_gpt_medium
-Files &amp; README for Medium Article: Creating REDCap Data Dictionaries Using ChatGPT 4.0
+Files and documentation referenced in Medium Article: Creating REDCap Data Dictionaries Using ChatGPT 4.0, Britt DeVries, November 16, 2024.
