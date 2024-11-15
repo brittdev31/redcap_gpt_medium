@@ -1,0 +1,13 @@
+Variable / Field Name,Form Name,Section Header,Field Type,Field Label,"Choices, Calculations, OR Slider Labels",Field Note,Text Validation Type OR Show Slider Number,Text Validation Min,Text Validation Max,Identifier?,Branching Logic (Show field only if...),Required Field?,Custom Alignment,Question Number (surveys only),Matrix Group Name,Matrix Ranking?,Field Annotation
+record_number,phq9,,text,Record Number,,,,,,y,,y,,,,,
+phq9_q1,phq9,PHQ-9 Questions,radio,Little interest or pleasure in doing things,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,1,,,
+phq9_q2,phq9,,radio,"Feeling down, depressed, or hopeless","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,2,,,
+phq9_q3,phq9,,radio,"Trouble falling or staying asleep, or sleeping too much","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,3,,,
+phq9_q4,phq9,,radio,Feeling tired or having little energy,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,4,,,
+phq9_q5,phq9,,radio,Poor appetite or overeating,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,5,,,
+phq9_q6,phq9,,radio,Feeling bad about yourself or that you are a failure,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,6,,,
+phq9_q7,phq9,,radio,Trouble concentrating on things,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,7,,,
+phq9_q8,phq9,,radio,"Moving or speaking slowly, or being fidgety/restless","0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,8,,,
+phq9_q9,phq9,,radio,Thoughts of being better off dead or hurting yourself,"0, Not at all | 1, Several days | 2, More than half the days | 3, Nearly every day",,,,,,,y,,9,,,
+phq9_difficulty,phq9,,radio,"Difficulty in work, home, or with others","0, Not difficult at all | 1, Somewhat difficult | 2, Very difficult | 3, Extremely difficult",,,,,,,y,,10,,,
+phq9_total_score,phq9,,calc,PHQ-9 Total Score,[phq9_q1] + [phq9_q2] + [phq9_q3] + [phq9_q4] + [phq9_q5] + [phq9_q6] + [phq9_q7] + [phq9_q8] + [phq9_q9],,,,,,,y,,11,,,

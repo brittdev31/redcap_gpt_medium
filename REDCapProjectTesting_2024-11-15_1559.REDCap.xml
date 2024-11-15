@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ODM xmlns="http://www.cdisc.org/ns/odm/v1.3" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:redcap="https://projectredcap.org" xsi:schemaLocation="http://www.cdisc.org/ns/odm/v1.3 schema/odm/ODM1-3-1.xsd" ODMVersion="1.3.1" FileOID="000-00-0000" FileType="Snapshot" Description="REDCap Project Testing" AsOfDateTime="2024-11-15T15:59:07" CreationDateTime="2024-11-15T15:59:07" SourceSystem="REDCap" SourceSystemVersion="14.0.12">
+<Study OID="Project.REDCapProjectTesting">
+<GlobalVariables>
+	<StudyName>REDCap Project Testing</StudyName>
+	<StudyDescription>This file contains the metadata, events, and data for REDCap project "REDCap Project Testing".</StudyDescription>
+	<ProtocolName>REDCap Project Testing</ProtocolName>
+	<redcap:RecordAutonumberingEnabled>1</redcap:RecordAutonumberingEnabled>
+	<redcap:CustomRecordLabel></redcap:CustomRecordLabel>
+	<redcap:SecondaryUniqueField></redcap:SecondaryUniqueField>
+	<redcap:SchedulingEnabled>0</redcap:SchedulingEnabled>
+	<redcap:SurveysEnabled>1</redcap:SurveysEnabled>
+	<redcap:SurveyInvitationEmailField></redcap:SurveyInvitationEmailField>
+	<redcap:DisplayTodayNowButton>0</redcap:DisplayTodayNowButton>
+	<redcap:PreventBranchingEraseValues>0</redcap:PreventBranchingEraseValues>
+	<redcap:RequireChangeReason>0</redcap:RequireChangeReason>
+	<redcap:DataHistoryPopup>1</redcap:DataHistoryPopup>
+	<redcap:OrderRecordsByField></redcap:OrderRecordsByField>
+	<redcap:MyCapEnabled>0</redcap:MyCapEnabled>
+	<redcap:Purpose>0</redcap:Purpose>
+	<redcap:PurposeOther></redcap:PurposeOther>
+	<redcap:ProjectNotes></redcap:ProjectNotes>
+	<redcap:MissingDataCodes></redcap:MissingDataCodes>
+	<redcap:ProtectedEmailMode>0</redcap:ProtectedEmailMode>
+	<redcap:ProtectedEmailModeCustomText>REDCap Secure Messaging</redcap:ProtectedEmailModeCustomText>
+	<redcap:ProtectedEmailModeTrigger>ALL</redcap:ProtectedEmailModeTrigger>
+	<redcap:ProtectedEmailModeLogo></redcap:ProtectedEmailModeLogo>
+	<redcap:UserRolesGroup>
+		<redcap:UserRoles role_name="Administrator" unique_role_name="U-766XH9AAYH" lock_record="2" lock_record_multiform="1" lock_record_customize="1" data_export_tool="" data_export_instruments="[example_survey_1,1][example_survey_2,1][landing_page,1][example_survey_3,1][outreach_form,1][example_survey_1_v2,1][service_setting,1][phq9,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[my_first_instrument,1][quarterly_assessment_questionaire,1][daily_assessment_questionnaire,1][enrolled_log,1][enroll,1][quarterly,1][daily_ec068a,1][supply_bria,1][example_survey_1,1][example_survey_2,1][landing_page,1][example_survey_3,1][outreach_form,1][example_survey_1_v2,1][service_setting,1][phq9,1]" api_export="1" api_import="1" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="1" record_delete="1" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Data Coordinator" unique_role_name="U-881WJJTFAR" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[example_survey_1,1][landing_page,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="0" data_access_groups="1" graphical="0" reports="1" design="1" alerts="1" calendar="1" data_entry="[my_first_instrument,1][example_survey_1,1][landing_page,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Data Entry" unique_role_name="U-342T4JFTJX" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[example_survey_1,1][landing_page,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="0" double_data="0" user_rights="0" data_access_groups="0" graphical="0" reports="0" design="0" alerts="0" calendar="0" data_entry="[my_first_instrument,1][example_survey_1,1][landing_page,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Data Monitor" unique_role_name="U-535WL9PTCL" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[example_survey_1,1][landing_page,1]" data_import_tool="0" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" alerts="0" calendar="1" data_entry="[my_first_instrument,1][example_survey_1,1][landing_page,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="0" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Investigator" unique_role_name="U-676CT38DL3" lock_record="1" lock_record_multiform="1" lock_record_customize="1" data_export_tool="" data_export_instruments="[example_survey_1,1][landing_page,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="1" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[my_first_instrument,1][example_survey_1,1][landing_page,1]" api_export="1" api_import="1" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="1" record_delete="0" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Project Staff" unique_role_name="U-978DMARX9K" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[example_survey_1,1][landing_page,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="1" double_data="0" user_rights="0" data_access_groups="0" graphical="0" reports="0" design="0" alerts="0" calendar="1" data_entry="[my_first_instrument,1][example_survey_1,1][landing_page,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Read Only" unique_role_name="U-874A3HFFC3" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[example_survey_1,1][landing_page,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="0" double_data="0" user_rights="0" data_access_groups="0" graphical="0" reports="0" design="0" alerts="0" calendar="0" data_entry="[my_first_instrument,2][example_survey_1,1][landing_page,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="0" data_quality_execute="0" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Site Coordinator" unique_role_name="U-571M44FA8M" lock_record="1" lock_record_multiform="1" lock_record_customize="1" data_export_tool="" data_export_instruments="[example_survey_1,1][landing_page,1]" data_import_tool="1" data_comparison_tool="1" data_logging="1" file_repository="1" double_data="0" user_rights="0" data_access_groups="1" graphical="1" reports="1" design="1" alerts="1" calendar="1" data_entry="[my_first_instrument,1][example_survey_1,1][landing_page,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="1" record_rename="1" record_delete="1" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+		<redcap:UserRoles role_name="Statistician" unique_role_name="U-54634XEYNM" lock_record="0" lock_record_multiform="0" lock_record_customize="0" data_export_tool="" data_export_instruments="[example_survey_1,1][landing_page,1]" data_import_tool="0" data_comparison_tool="0" data_logging="0" file_repository="0" double_data="0" user_rights="0" data_access_groups="0" graphical="1" reports="1" design="0" alerts="0" calendar="1" data_entry="[my_first_instrument,1][example_survey_1,1][landing_page,1]" api_export="0" api_import="0" api_modules="0" mobile_app="0" mobile_app_download_data="0" record_create="0" record_rename="0" record_delete="0" dts="0" participants="1" data_quality_design="1" data_quality_execute="1" data_quality_resolution="1" random_setup="0" random_dashboard="0" random_perform="0" realtime_webservice_mapping="0" realtime_webservice_adjudicate="0" external_module_config="" mycap_participants="0"/>
+	</redcap:UserRolesGroup>
+</GlobalVariables>
+<MetaDataVersion OID="Metadata.REDCapProjectTesting_2024-11-15_1559" Name="REDCap Project Testing" redcap:RecordIdField="record_number">
+	<Protocol>
+		<StudyEventRef StudyEventOID="Event.event_1_arm_1" OrderNumber="1" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.event_2_arm_2" OrderNumber="2" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.event_3_arm_3" OrderNumber="3" Mandatory="No"/>
+		<StudyEventRef StudyEventOID="Event.event_4_arm_4" OrderNumber="4" Mandatory="No"/>
+	</Protocol>
+	<StudyEventDef OID="Event.event_1_arm_1" Name="Event 1 (Arm 1: Example Survey 1)" Type="Common" Repeating="No" redcap:EventName="Event 1" redcap:CustomEventLabel="" redcap:UniqueEventName="event_1_arm_1" redcap:ArmNum="1" redcap:ArmName="Example Survey 1" redcap:DayOffset="1" redcap:OffsetMin="0" redcap:OffsetMax="0">
+	</StudyEventDef>
+	<StudyEventDef OID="Event.event_2_arm_2" Name="Event 2 (Arm 2: Example Survey 2)" Type="Common" Repeating="No" redcap:EventName="Event 2" redcap:CustomEventLabel="" redcap:UniqueEventName="event_2_arm_2" redcap:ArmNum="2" redcap:ArmName="Example Survey 2" redcap:DayOffset="1" redcap:OffsetMin="0" redcap:OffsetMax="0">
+	</StudyEventDef>
+	<StudyEventDef OID="Event.event_3_arm_3" Name="Event 3 (Arm 3: Example Survey 3)" Type="Common" Repeating="No" redcap:EventName="Event 3" redcap:CustomEventLabel="" redcap:UniqueEventName="event_3_arm_3" redcap:ArmNum="3" redcap:ArmName="Example Survey 3" redcap:DayOffset="1" redcap:OffsetMin="0" redcap:OffsetMax="0">
+	</StudyEventDef>
+	<StudyEventDef OID="Event.event_4_arm_4" Name="Event 4 (Arm 4: Outreach Form)" Type="Common" Repeating="No" redcap:EventName="Event 4" redcap:CustomEventLabel="" redcap:UniqueEventName="event_4_arm_4" redcap:ArmNum="4" redcap:ArmName="Outreach Form" redcap:DayOffset="1" redcap:OffsetMin="0" redcap:OffsetMax="0">
+	</StudyEventDef>
+	<FormDef OID="Form.phq9" Name="Phq9" Repeating="No" redcap:FormName="phq9">
+		<ItemGroupRef ItemGroupOID="phq9.record_number" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="phq9.phq9_q1" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="phq9.phq9_q2" Mandatory="No"/>
+		<ItemGroupRef ItemGroupOID="phq9.phq9_complete" Mandatory="No"/>
+	</FormDef>
+	<ItemGroupDef OID="phq9.record_number" Name="Phq9" Repeating="No">
+		<ItemRef ItemOID="record_number" Mandatory="Yes" redcap:Variable="record_number"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="phq9.phq9_q1" Name="PHQ-9 Questions" Repeating="No">
+		<ItemRef ItemOID="phq9_q1" Mandatory="Yes" redcap:Variable="phq9_q1"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="phq9.phq9_q2" Name="Phq9" Repeating="No">
+		<ItemRef ItemOID="phq9_q2" Mandatory="Yes" redcap:Variable="phq9_q2"/>
+		<ItemRef ItemOID="phq9_q3" Mandatory="Yes" redcap:Variable="phq9_q3"/>
+		<ItemRef ItemOID="phq9_q4" Mandatory="Yes" redcap:Variable="phq9_q4"/>
+		<ItemRef ItemOID="phq9_q5" Mandatory="Yes" redcap:Variable="phq9_q5"/>
+		<ItemRef ItemOID="phq9_q6" Mandatory="Yes" redcap:Variable="phq9_q6"/>
+		<ItemRef ItemOID="phq9_q7" Mandatory="Yes" redcap:Variable="phq9_q7"/>
+		<ItemRef ItemOID="phq9_q8" Mandatory="Yes" redcap:Variable="phq9_q8"/>
+		<ItemRef ItemOID="phq9_q9" Mandatory="Yes" redcap:Variable="phq9_q9"/>
+		<ItemRef ItemOID="phq9_difficulty" Mandatory="Yes" redcap:Variable="phq9_difficulty"/>
+		<ItemRef ItemOID="phq9_total_score" Mandatory="Yes" redcap:Variable="phq9_total_score"/>
+	</ItemGroupDef>
+	<ItemGroupDef OID="phq9.phq9_complete" Name="Form Status" Repeating="No">
+		<ItemRef ItemOID="phq9_complete" Mandatory="No" redcap:Variable="phq9_complete"/>
+	</ItemGroupDef>
+	<ItemDef OID="record_number" Name="record_number" DataType="text" Length="999" redcap:Variable="record_number" redcap:FieldType="text" redcap:Identifier="y" redcap:RequiredField="y">
+		<Question><TranslatedText>Record Number</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="phq9_q1" Name="phq9_q1" DataType="text" Length="1" redcap:Variable="phq9_q1" redcap:FieldType="radio" redcap:SectionHeader="PHQ-9 Questions" redcap:RequiredField="y" redcap:QuestionNumber="1">
+		<Question><TranslatedText>Little interest or pleasure in doing things</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_q1.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_q2" Name="phq9_q2" DataType="text" Length="1" redcap:Variable="phq9_q2" redcap:FieldType="radio" redcap:RequiredField="y" redcap:QuestionNumber="2">
+		<Question><TranslatedText>Feeling down, depressed, or hopeless</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_q2.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_q3" Name="phq9_q3" DataType="text" Length="1" redcap:Variable="phq9_q3" redcap:FieldType="radio" redcap:RequiredField="y" redcap:QuestionNumber="3">
+		<Question><TranslatedText>Trouble falling or staying asleep, or sleeping too much</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_q3.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_q4" Name="phq9_q4" DataType="text" Length="1" redcap:Variable="phq9_q4" redcap:FieldType="radio" redcap:RequiredField="y" redcap:QuestionNumber="4">
+		<Question><TranslatedText>Feeling tired or having little energy</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_q4.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_q5" Name="phq9_q5" DataType="text" Length="1" redcap:Variable="phq9_q5" redcap:FieldType="radio" redcap:RequiredField="y" redcap:QuestionNumber="5">
+		<Question><TranslatedText>Poor appetite or overeating</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_q5.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_q6" Name="phq9_q6" DataType="text" Length="1" redcap:Variable="phq9_q6" redcap:FieldType="radio" redcap:RequiredField="y" redcap:QuestionNumber="6">
+		<Question><TranslatedText>Feeling bad about yourself or that you are a failure</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_q6.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_q7" Name="phq9_q7" DataType="text" Length="1" redcap:Variable="phq9_q7" redcap:FieldType="radio" redcap:RequiredField="y" redcap:QuestionNumber="7">
+		<Question><TranslatedText>Trouble concentrating on things</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_q7.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_q8" Name="phq9_q8" DataType="text" Length="1" redcap:Variable="phq9_q8" redcap:FieldType="radio" redcap:RequiredField="y" redcap:QuestionNumber="8">
+		<Question><TranslatedText>Moving or speaking slowly, or being fidgety/restless</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_q8.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_q9" Name="phq9_q9" DataType="text" Length="1" redcap:Variable="phq9_q9" redcap:FieldType="radio" redcap:RequiredField="y" redcap:QuestionNumber="9">
+		<Question><TranslatedText>Thoughts of being better off dead or hurting yourself</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_q9.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_difficulty" Name="phq9_difficulty" DataType="text" Length="1" redcap:Variable="phq9_difficulty" redcap:FieldType="radio" redcap:RequiredField="y" redcap:QuestionNumber="10">
+		<Question><TranslatedText>Difficulty in work, home, or with others</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_difficulty.choices"/>
+	</ItemDef>
+	<ItemDef OID="phq9_total_score" Name="phq9_total_score" DataType="float" Length="999" redcap:Variable="phq9_total_score" redcap:FieldType="calc" redcap:Calculation="[phq9_q1] + [phq9_q2] + [phq9_q3] + [phq9_q4] + [phq9_q5] + [phq9_q6] + [phq9_q7] + [phq9_q8] + [phq9_q9]" redcap:RequiredField="y" redcap:QuestionNumber="11">
+		<Question><TranslatedText>PHQ-9 Total Score</TranslatedText></Question>
+	</ItemDef>
+	<ItemDef OID="phq9_complete" Name="phq9_complete" DataType="text" Length="1" redcap:Variable="phq9_complete" redcap:FieldType="select" redcap:SectionHeader="Form Status">
+		<Question><TranslatedText>Complete?</TranslatedText></Question>
+		<CodeListRef CodeListOID="phq9_complete.choices"/>
+	</ItemDef>
+	<CodeList OID="phq9_q1.choices" Name="phq9_q1" DataType="text" redcap:Variable="phq9_q1">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_q2.choices" Name="phq9_q2" DataType="text" redcap:Variable="phq9_q2">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_q3.choices" Name="phq9_q3" DataType="text" redcap:Variable="phq9_q3">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_q4.choices" Name="phq9_q4" DataType="text" redcap:Variable="phq9_q4">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_q5.choices" Name="phq9_q5" DataType="text" redcap:Variable="phq9_q5">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_q6.choices" Name="phq9_q6" DataType="text" redcap:Variable="phq9_q6">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_q7.choices" Name="phq9_q7" DataType="text" redcap:Variable="phq9_q7">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_q8.choices" Name="phq9_q8" DataType="text" redcap:Variable="phq9_q8">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_q9.choices" Name="phq9_q9" DataType="text" redcap:Variable="phq9_q9">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Several days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>More than half the days</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Nearly every day</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_difficulty.choices" Name="phq9_difficulty" DataType="text" redcap:Variable="phq9_difficulty">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Not difficult at all</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Somewhat difficult</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Very difficult</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="3"><Decode><TranslatedText>Extremely difficult</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+	<CodeList OID="phq9_complete.choices" Name="phq9_complete" DataType="text" redcap:Variable="phq9_complete">
+		<CodeListItem CodedValue="0"><Decode><TranslatedText>Incomplete</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="1"><Decode><TranslatedText>Unverified</TranslatedText></Decode></CodeListItem>
+		<CodeListItem CodedValue="2"><Decode><TranslatedText>Complete</TranslatedText></Decode></CodeListItem>
+	</CodeList>
+</MetaDataVersion>
+</Study>
+</ODM>
